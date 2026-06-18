@@ -1,0 +1,54 @@
+.wa-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  z-index: 950;
+
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow: hidden;
+
+  padding: 13px;
+  border-radius: 999px;
+
+  background: #25D366;
+  color: #fff;
+
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
+  transition: padding var(--transition), gap var(--transition), box-shadow var(--transition);
+  text-decoration: none;
+}
+
+.wa-btn:hover {
+  padding: 13px 20px;
+  gap: 10px;
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.45);
+}
+
+.wa-icon {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.wa-label {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font);
+  white-space: nowrap;
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width var(--transition);
+}
+
+.wa-btn:hover .wa-label {
+  max-width: 160px;
+}
+
+@media (max-width: 768px) {
+  .wa-btn {
+    right: 16px;
+    bottom: 20px;
+  }
+}

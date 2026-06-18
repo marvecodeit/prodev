@@ -1,0 +1,141 @@
+.experience-section {
+  padding: 100px 40px;
+  background: var(--bg);
+}
+
+.experience-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.experience-sub {
+  font-size: 16px;
+  color: var(--muted);
+  max-width: 600px;
+  line-height: 1.7;
+  margin-bottom: 56px;
+}
+
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.exp-card {
+  display: flex;
+  gap: 24px;
+  padding: 28px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.exp-card:hover {
+  box-shadow: 0 8px 32px rgba(26, 43, 60, 0.07);
+  transform: translateY(-2px);
+}
+
+.exp-logo {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.exp-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exp-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.exp-title-block h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 3px;
+}
+
+.exp-role {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 600;
+  display: block;
+}
+
+.exp-period {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 4px 10px;
+  background: rgba(26, 43, 60, 0.05);
+  border-radius: 4px;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.exp-points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.exp-points li {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.65;
+  padding-left: 16px;
+  position: relative;
+}
+
+.exp-points li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 60px 20px;
+  }
+
+  .exp-card {
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .exp-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .exp-period {
+    white-space: normal;
+  }
+}

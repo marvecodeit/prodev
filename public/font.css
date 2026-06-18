@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'cursive';
+    src: url('./CedarvilleCursive-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'stack';
+    src: url('./AlfaSlabOne-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
