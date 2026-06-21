@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://prodev-three.vercel.app/</loc>
+    <loc>https://www.prodevs.me/</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://prodev-three.vercel.app/#projects</loc>
+    <loc>https://www.prodevs.me/#projects</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://prodev-three.vercel.app/#contact</loc>
+    <loc>https://www.prodevs.me/#contact</loc>
     <lastmod>2026-05-22</lastmod>
     <priority>0.8</priority>
   </url>
